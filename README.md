@@ -1,2 +1,2 @@
 # alx-backend-javascript
-ES6 backend JS
+ES6 backend
