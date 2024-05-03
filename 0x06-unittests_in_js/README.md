@@ -40,6 +40,7 @@ tea.should.have.property('flavors')
 
 Chai-HTTP is a plugin that offers a full-fledged test runner that will actually run your application and test its endpoints directly:
 
+```
 describe('GET /films-list', () => {
   it('should return a list of films when called', done => {
     chai
@@ -52,5 +53,6 @@ describe('GET /films-list', () => {
       });
   });
 });
+```
 
 With Chai HTTP, the test runner starts your application, calls the requested endpoint, and then brings it down all in one command. This is really powerful, helping to perform integration tests on your application.
