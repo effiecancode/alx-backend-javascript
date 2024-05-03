@@ -1,10 +1,10 @@
 {
-  "name": "unittestinjavascript",
+  "name": "0x06-unittests_in_js",
   "version": "1.0.0",
-  "description": "writing comprehensive unittests",
+  "description": "alx-writing comprehensive unittests in JS",
   "main": "index.js",
   "scripts": {
-    "test": "mocha --timeout 5000 -R mocha-multi --reporter-options spec=-,json=.results.json"
+    "test": "./node_modules/mocha/bin/mocha"
   },
   "author": "effiecancode",
   "license": "ISC",
