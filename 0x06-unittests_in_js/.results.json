@@ -5,9 +5,9 @@
     "passes": 5,
     "pending": 0,
     "failures": 0,
-    "start": "2024-05-03T17:14:00.068Z",
-    "end": "2024-05-03T17:14:00.079Z",
-    "duration": 11
+    "start": "2024-05-03T18:10:04.708Z",
+    "end": "2024-05-03T18:10:04.718Z",
+    "duration": 10
   },
   "tests": [
     {
@@ -23,7 +23,7 @@
       "title": "should round floats",
       "fullTitle": "calculateNmumber should round floats",
       "file": "/Users/mac/alx-backend-spesh/alx-backend-javascript/0x06-unittests_in_js/0-calcul.test.js",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "speed": "fast",
       "err": {}
@@ -50,7 +50,7 @@
       "title": "should throw typeerror if either param cannot be coerced",
       "fullTitle": "calculateNmumber should throw typeerror if either param cannot be coerced",
       "file": "/Users/mac/alx-backend-spesh/alx-backend-javascript/0x06-unittests_in_js/0-calcul.test.js",
-      "duration": 2,
+      "duration": 1,
       "currentRetry": 0,
       "speed": "fast",
       "err": {}
@@ -72,7 +72,7 @@
       "title": "should round floats",
       "fullTitle": "calculateNmumber should round floats",
       "file": "/Users/mac/alx-backend-spesh/alx-backend-javascript/0x06-unittests_in_js/0-calcul.test.js",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "speed": "fast",
       "err": {}
@@ -99,7 +99,7 @@
       "title": "should throw typeerror if either param cannot be coerced",
       "fullTitle": "calculateNmumber should throw typeerror if either param cannot be coerced",
       "file": "/Users/mac/alx-backend-spesh/alx-backend-javascript/0x06-unittests_in_js/0-calcul.test.js",
-      "duration": 2,
+      "duration": 1,
       "currentRetry": 0,
       "speed": "fast",
       "err": {}
