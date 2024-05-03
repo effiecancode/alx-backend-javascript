@@ -1,31 +1,9 @@
-function calculateNumber(a, b) {
-    // if one parameter id provided
-    if (typeof b === 'undefined') {
-        if (isNaN(a)) {
-            throw new TypeError('Parameters must be numbers');
-        }
-        // convert the parameter to a number and round it off
-        a = Math.round(Number(a));
-        return a;
-    }
+module.exports = function calculateNumber(a, b = 0) {
+  const aNum = Number(a);
+  const bNum = Number(b);
 
+  if (Number.isNaN(aNum) || Number.isNaN(bNum))
+    throw TypeError("Parameters must be numbers");
 
-
-  // Check if either parameter is not a number
-  if (isNaN(a) || isNaN(b)) {
-    throw new TypeError('Parameters must be numbers');
-  }
-
-  // Convert parameters to numbers
-  a = Number(a);
-  b = Number(b);
-
-  // Round the numbers
-  a = Math.round(a);
-  b = Math.round(b);
-
-  // Return the sum
-  return a + b;
-}
-
-module.exports = calculateNumber;
+  return Math.round(aNum) + Math.round(bNum);
+};
