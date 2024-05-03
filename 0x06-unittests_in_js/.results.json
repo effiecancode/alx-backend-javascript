@@ -1,56 +1,38 @@
 {
   "stats": {
     "suites": 1,
-    "tests": 5,
-    "passes": 5,
+    "tests": 3,
+    "passes": 3,
     "pending": 0,
     "failures": 0,
-    "start": "2024-05-03T18:10:04.708Z",
-    "end": "2024-05-03T18:10:04.718Z",
-    "duration": 10
+    "start": "2024-05-03T18:25:12.628Z",
+    "end": "2024-05-03T18:25:12.637Z",
+    "duration": 9
   },
   "tests": [
     {
-      "title": "should return the sum of two numbers",
-      "fullTitle": "calculateNmumber should return the sum of two numbers",
-      "file": "/Users/mac/alx-backend-spesh/alx-backend-javascript/0x06-unittests_in_js/0-calcul.test.js",
-      "duration": 0,
-      "currentRetry": 0,
-      "speed": "fast",
-      "err": {}
-    },
-    {
-      "title": "should round floats",
-      "fullTitle": "calculateNmumber should round floats",
-      "file": "/Users/mac/alx-backend-spesh/alx-backend-javascript/0x06-unittests_in_js/0-calcul.test.js",
-      "duration": 0,
-      "currentRetry": 0,
-      "speed": "fast",
-      "err": {}
-    },
-    {
-      "title": "should return rounded number if only one is provided ",
-      "fullTitle": "calculateNmumber should return rounded number if only one is provided ",
-      "file": "/Users/mac/alx-backend-spesh/alx-backend-javascript/0x06-unittests_in_js/0-calcul.test.js",
-      "duration": 0,
-      "currentRetry": 0,
-      "speed": "fast",
-      "err": {}
-    },
-    {
-      "title": "should cast non-numbers into numbers",
-      "fullTitle": "calculateNmumber should cast non-numbers into numbers",
-      "file": "/Users/mac/alx-backend-spesh/alx-backend-javascript/0x06-unittests_in_js/0-calcul.test.js",
-      "duration": 0,
-      "currentRetry": 0,
-      "speed": "fast",
-      "err": {}
-    },
-    {
-      "title": "should throw typeerror if either param cannot be coerced",
-      "fullTitle": "calculateNmumber should throw typeerror if either param cannot be coerced",
+      "title": "checks the output",
+      "fullTitle": "calculateNumber checks the output",
       "file": "/Users/mac/alx-backend-spesh/alx-backend-javascript/0x06-unittests_in_js/0-calcul.test.js",
       "duration": 1,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "negative numbers",
+      "fullTitle": "calculateNumber negative numbers",
+      "file": "/Users/mac/alx-backend-spesh/alx-backend-javascript/0x06-unittests_in_js/0-calcul.test.js",
+      "duration": 0,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "checks arguments",
+      "fullTitle": "calculateNumber checks arguments",
+      "file": "/Users/mac/alx-backend-spesh/alx-backend-javascript/0x06-unittests_in_js/0-calcul.test.js",
+      "duration": 0,
       "currentRetry": 0,
       "speed": "fast",
       "err": {}
@@ -60,46 +42,28 @@
   "failures": [],
   "passes": [
     {
-      "title": "should return the sum of two numbers",
-      "fullTitle": "calculateNmumber should return the sum of two numbers",
-      "file": "/Users/mac/alx-backend-spesh/alx-backend-javascript/0x06-unittests_in_js/0-calcul.test.js",
-      "duration": 0,
-      "currentRetry": 0,
-      "speed": "fast",
-      "err": {}
-    },
-    {
-      "title": "should round floats",
-      "fullTitle": "calculateNmumber should round floats",
-      "file": "/Users/mac/alx-backend-spesh/alx-backend-javascript/0x06-unittests_in_js/0-calcul.test.js",
-      "duration": 0,
-      "currentRetry": 0,
-      "speed": "fast",
-      "err": {}
-    },
-    {
-      "title": "should return rounded number if only one is provided ",
-      "fullTitle": "calculateNmumber should return rounded number if only one is provided ",
-      "file": "/Users/mac/alx-backend-spesh/alx-backend-javascript/0x06-unittests_in_js/0-calcul.test.js",
-      "duration": 0,
-      "currentRetry": 0,
-      "speed": "fast",
-      "err": {}
-    },
-    {
-      "title": "should cast non-numbers into numbers",
-      "fullTitle": "calculateNmumber should cast non-numbers into numbers",
-      "file": "/Users/mac/alx-backend-spesh/alx-backend-javascript/0x06-unittests_in_js/0-calcul.test.js",
-      "duration": 0,
-      "currentRetry": 0,
-      "speed": "fast",
-      "err": {}
-    },
-    {
-      "title": "should throw typeerror if either param cannot be coerced",
-      "fullTitle": "calculateNmumber should throw typeerror if either param cannot be coerced",
+      "title": "checks the output",
+      "fullTitle": "calculateNumber checks the output",
       "file": "/Users/mac/alx-backend-spesh/alx-backend-javascript/0x06-unittests_in_js/0-calcul.test.js",
       "duration": 1,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "negative numbers",
+      "fullTitle": "calculateNumber negative numbers",
+      "file": "/Users/mac/alx-backend-spesh/alx-backend-javascript/0x06-unittests_in_js/0-calcul.test.js",
+      "duration": 0,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "checks arguments",
+      "fullTitle": "calculateNumber checks arguments",
+      "file": "/Users/mac/alx-backend-spesh/alx-backend-javascript/0x06-unittests_in_js/0-calcul.test.js",
+      "duration": 0,
       "currentRetry": 0,
       "speed": "fast",
       "err": {}
